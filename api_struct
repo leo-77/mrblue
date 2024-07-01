@@ -1,0 +1,180 @@
+1. resource
+{
+    "data": [
+        {
+            "containerId": "ml-inference-consumer-devcom0",
+            "resource_info": "init",
+            "gpuMemoryTotal": 24576.0,
+            "cpuUsage": 1.1,
+            "memoryUsage": 3,
+            "gpuMemoryUsed": 0,
+            "resourceType": "common",
+            "estimatedTime": "00:00:00",
+            "running": [],
+            "memoryTotal": 62.66743469238281,
+            "gpuMemoryUsage": 0,
+            "remainsGpuMemory": 24576
+        },
+        {
+            "containerId": "ml-inference-consumer-devcom2",
+            "resource_info": "init",
+            "gpuMemoryTotal": 10240.0,
+            "cpuUsage": 90.5,
+            "memoryUsage": 8,
+            "gpuMemoryUsed": 0,
+            "resourceType": "common",
+            "estimatedTime": "00:02:41",
+            "running": [
+                {
+                    "status": "R",
+                    "runType": "TRAIN",
+                    "transactionId": "7436db9c96604ce992e528896b9cd3e2",
+                    "podName": "ml-inference-consumer-devcom2-0",
+                    "count": 5,
+                    "pid": 1174201,
+                    "accountId": "0af4245a-8ee6-1386-818e-eacb366b0004",
+                    "zoneId": "0af4245a-8ee6-1386-818e-eacb36680003",
+                    "x-transaction-id": "content_908d27fc-9c16-424a-a49c-768037fc1a31",
+                    "md5hashId": "cfa1eb542f98a42b6c45d5e5a63a1c04",
+                    "gpuMemoryTotal": 10240,
+                    "gpuMemoryUsed": 5000,
+                    "cpuUsage": 90.5,
+                    "memoryUsage": 8.6465625,
+                    "maxUsageGpuMemory": 5000,
+                    "epoch": 35,
+                    "startTime": 1.7167733371158288E9,
+                    "maxEpoch": 100,
+                    "estimatedTime": "00:04:34"
+                },
+                {
+                    "status": "R",
+                    "runType": "TRAIN",
+                    "transactionId": "fe70060031f5434283c008bfde4c25c6",
+                    "podName": "ml-inference-consumer-devcom2-0",
+                    "count": 5,
+                    "pid": 1176136,
+                    "accountId": "0af4245a-8ee6-1386-818e-eacb366b0004",
+                    "zoneId": "0af4245a-8ee6-1386-818e-eacb36680003",
+                    "x-transaction-id": "content_04c6c842-9946-4e7b-82fc-6e99ba570504",
+                    "md5hashId": "cfa1eb542f98a42b6c45d5e5a63a1c04",
+                    "gpuMemoryTotal": 10240,
+                    "gpuMemoryUsed": 5000,
+                    "cpuUsage": 90.5,
+                    "memoryUsage": 8.6465625,
+                    "maxUsageGpuMemory": 5000,
+                    "epoch": 9,
+                    "startTime": 1.716773394197054E9,
+                    "maxEpoch": 100,
+                    "estimatedTime": "00:15:21"
+                }
+            ],
+            "7436db9c96604ce992e528896b9cd3e2": {
+                "status": "R",
+                "runType": "TRAIN",
+                "transactionId": "7436db9c96604ce992e528896b9cd3e2",
+                "podName": "ml-inference-consumer-devcom2-0",
+                "count": 5,
+                "pid": 1174201,
+                "accountId": "0af4245a-8ee6-1386-818e-eacb366b0004",
+                "zoneId": "0af4245a-8ee6-1386-818e-eacb36680003",
+                "x-transaction-id": "content_908d27fc-9c16-424a-a49c-768037fc1a31",
+                "md5hashId": "cfa1eb542f98a42b6c45d5e5a63a1c04",
+                "gpuMemoryTotal": 10240,
+                "gpuMemoryUsed": 5000,
+                "cpuUsage": 68.9,
+                "memoryUsage": 6.3909375,
+                "maxUsageGpuMemory": 5000,
+                "epoch": 35,
+                "startTime": 1.7167733371158288E9,
+                "maxEpoch": 100,
+                "estimatedTime": "00:04:34"
+            },
+            "memoryTotal": 62.65625,
+            "gpuMemoryUsage": 10000,
+            "remainsGpuMemory": 240,
+            "fe70060031f5434283c008bfde4c25c6": {
+                "status": "R",
+                "runType": "TRAIN",
+                "transactionId": "fe70060031f5434283c008bfde4c25c6",
+                "podName": "ml-inference-consumer-devcom2-0",
+                "count": 5,
+                "pid": 1176136,
+                "accountId": "0af4245a-8ee6-1386-818e-eacb366b0004",
+                "zoneId": "0af4245a-8ee6-1386-818e-eacb36680003",
+                "x-transaction-id": "content_04c6c842-9946-4e7b-82fc-6e99ba570504",
+                "md5hashId": "cfa1eb542f98a42b6c45d5e5a63a1c04",
+                "gpuMemoryTotal": 10240,
+                "gpuMemoryUsed": 5000,
+                "cpuUsage": 66.0,
+                "memoryUsage": 8.6465625,
+                "maxUsageGpuMemory": 5000,
+                "epoch": 9,
+                "startTime": 1.716773394197054E9,
+                "maxEpoch": 100,
+                "estimatedTime": "00:15:21"
+            }
+        },
+        {
+            "containerId": "ml-inference-consumer-devcom1",
+            "resource_info": "init",
+            "gpuMemoryTotal": 10240.0,
+            "cpuUsage": 9.1,
+            "memoryUsage": 9,
+            "gpuMemoryUsed": 0,
+            "resourceType": "common",
+            "estimatedTime": "00:00:00",
+            "running": [],
+            "memoryTotal": 62.70730972290039,
+            "gpuMemoryUsage": 0,
+            "remainsGpuMemory": 10240
+        }
+    ],
+    "code": 200,
+    "message": "OK"
+}
+
+2. dedicated
+{
+    "data": [
+        {
+            "gpuMemoryTotal": 81920,
+            "cpuUsage": 0,
+            "memoryUsage": 0,
+            "gpuMemoryUsed": 0,
+            "resourceType": "Dedicated",
+            "memoryTotal": 110,
+            "gpuMemoryUsage": 0,
+            "remainsGpuMemory": 65536,
+            "containerId": "consumer-dedicated-1b0d0fdc93484dfe34b55cb0cc97c122-s0ggz9nd1ajcxb",
+            "resource_info": "",
+            "running": []
+        }
+    ],
+    "code": 200,
+    "message": "OK"
+}
+
+3.container
+{
+    "data": {
+        "spec": [
+            {
+                "taintId": "d_nc8as_t4_v3",
+                "ramGiB": 110,
+                "gpuRamGiB": 16
+            }
+        ],
+        "libGroup": [
+            {
+                "libGroupId": "v0.6",
+                "pythonVersion": "Python 3.9.17",
+                "frameWorkVersion": "pytorch 2.0.1"
+            }
+        ],
+        "currentSize": 0,
+        "requestCount": 1,
+        "limitSize": 1
+    },
+    "code": 200,
+    "message": "OK"
+}
