@@ -94,7 +94,7 @@ const ResourceControlModal = ({ isActive, onClose, usedMaxUsageGpuMemory }) => {
           requestResourcesContainers();
         }
       } catch (error) {
-        alert({ title: "Notice", content: result.message });
+        alert({ title: "Notice", content: error.message });
       }
     } else {
       setIsNodeFull(true);
