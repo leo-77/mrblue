@@ -101,9 +101,9 @@ const ResourceControlModal = ({ isActive, onClose, usedMaxUsageGpuMemory }) => {
     }
   };
 
-  const reload = async () => {
-    await requestResources({ zoneId, accountId });
-    return requestResourcesContainers();
+  const reload = () => {
+    requestResources({ zoneId, accountId });
+    requestResourcesContainers();
   };
 
   const makeRunningBar = (running, totalMemory, property, remainsGpuMemory) => {
