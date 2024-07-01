@@ -5,7 +5,7 @@ import Button from "portal/atoms/Button";
 import Icon from "portal/atoms/Icon";
 import Input from "portal/atoms/Input";
 import Select from "portal/atoms/Select";
-const { default: Modal } = require("portal/organisms/LegacyModal");
+import Modal from "portal/organisms/LegacyModal"
 import ProgressIndicator from "portal/organisms/ProgressIndicator";
 import useAlert from "portal/hooks/useAlert";
 import { mbToGb } from "portal/utils/number";
